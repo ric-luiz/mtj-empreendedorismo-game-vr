@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0f078c331233652439367f36285855dd
-timeCreated: 1478140585
+guid: 80a8224b9b1273148a4eef990012cee6
+timeCreated: 1478652018
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -157,6 +157,36 @@ ModelImporter:
     4300054: armario
     4300056: cama
     4300058: walls
+    6400000: arcondicionado
+    6400002: armario
+    6400004: armario.001
+    6400006: cadeira
+    6400008: cama
+    6400010: criadoMudo
+    6400012: Cube
+    6400014: lampada
+    6400016: leptop
+    6400018: livro1
+    6400020: livro1.001
+    6400022: livro1.002
+    6400024: livro1.003
+    6400026: livro2
+    6400028: livro2.001
+    6400030: livro2.002
+    6400032: livro2.003
+    6400034: livro3
+    6400036: livro3.001
+    6400038: livro3.002
+    6400040: livro3.003
+    6400042: luminariaMesa
+    6400044: mesa
+    6400046: mural
+    6400048: pillow
+    6400050: porta
+    6400052: posit1
+    6400054: posit2
+    6400056: posit3
+    6400058: walls
   materials:
     importMaterials: 1
     materialName: 0
@@ -183,10 +213,10 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
