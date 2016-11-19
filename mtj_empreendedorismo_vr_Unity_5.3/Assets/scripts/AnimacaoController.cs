@@ -1,12 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
-public class MenuMural : MonoBehaviour {
+public class AnimacaoController : MonoBehaviour {
 
 	private Animator mainCameraAnimator;
 	private bool mural = false;
 	private bool lepTop = false;
 	private bool porta = false;
+
+	private bool jogoIniciado = false; //O jogador já clicou no botão start?
+
+	//as 2 variaveis são referentes ao leptop
+	public GameObject leptopBrilho;
+	public GameObject leptopTela;
 
 	void Start () {
 		mainCameraAnimator = Camera.main.gameObject.GetComponent<Animator> (); //Pegar animator da camera principal
@@ -60,5 +67,21 @@ public class MenuMural : MonoBehaviour {
 		this.mural = false;
 		this.lepTop = false;
 		this.porta = false;
+	}		
+
+	//Quando o jogador clica no posit start
+	public void iniciar(){
+		if(!this.jogoIniciado){
+
+			this.jogoIniciado = true; //jogo iniciado
+			leptopTela.SetActive (true); //habilita a tela
+			leptopBrilho.SetActive (true); //habilita o brilho do lepTop
+
+		}
+	}
+
+	//Quando o jogador clica na opção exit nas opções do leptop
+	public void sairProximaCena(){
+		SceneManager.LoadScene ("limbo",LoadSceneMode.Single);
 	}
 }
