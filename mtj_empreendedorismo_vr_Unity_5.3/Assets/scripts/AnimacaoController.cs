@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class AnimacaoController : MonoBehaviour {
-
-	private Animator mainCameraAnimator;
+    public Button StartText;
+    public Button CreditosText;
+    public Button OpcoesText;
+    private Animator mainCameraAnimator;
 	private bool mural = false;
 	private bool lepTop = false;
 	private bool porta = false;
 
-	private bool jogoIniciado = false; //O jogador já clicou no botão start?
+    private bool jogoIniciado = false; //O jogador já clicou no botão start?
 
 	//as 2 variaveis são referentes ao leptop
 	public GameObject leptopBrilho;
@@ -17,7 +20,10 @@ public class AnimacaoController : MonoBehaviour {
 
 	void Start () {
 		mainCameraAnimator = Camera.main.gameObject.GetComponent<Animator> (); //Pegar animator da camera principal
-	}
+        StartText = StartText.GetComponent<Button>();
+        CreditosText = CreditosText.GetComponent<Button>();
+        OpcoesText = OpcoesText.GetComponent<Button>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -69,17 +75,20 @@ public class AnimacaoController : MonoBehaviour {
 		this.porta = false;
 	}		
 
+	//Clica em start 
+	public void iniciarJogo(){
+		jogoIniciado = true;
+        mainCameraAnimator.Play("muralToCama");
+    }
 	//Quando o jogador clica no posit start
 	public void iniciar(){
 		if(!this.jogoIniciado){
-
 			this.jogoIniciado = true; //jogo iniciado
 			leptopTela.SetActive (true); //habilita a tela
 			leptopBrilho.SetActive (true); //habilita o brilho do lepTop
 
-		}
+        }
 	}
-
 	//Quando o jogador clica na opção exit nas opções do leptop
 	public void sairProximaCena(){
 		SceneManager.LoadScene ("limbo",LoadSceneMode.Single);
