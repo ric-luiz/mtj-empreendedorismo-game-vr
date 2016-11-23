@@ -4,15 +4,13 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class AnimacaoController : MonoBehaviour {
-    public Button StartText;
-    public Button CreditosText;
-    public Button OpcoesText;
     private Animator mainCameraAnimator;
 	private bool mural = false;
 	private bool lepTop = false;
 	private bool porta = false;
 
     private bool jogoIniciado = false; //O jogador já clicou no botão start?
+	private bool SegundoAudioIntrodutorioPassado = false; //O audia 2 da introdução foi passado?
 
 	//as 2 variaveis são referentes ao leptop
 	public GameObject leptopBrilho;
@@ -20,15 +18,7 @@ public class AnimacaoController : MonoBehaviour {
 
 	void Start () {
 		mainCameraAnimator = Camera.main.gameObject.GetComponent<Animator> (); //Pegar animator da camera principal
-        StartText = StartText.GetComponent<Button>();
-        CreditosText = CreditosText.GetComponent<Button>();
-        OpcoesText = OpcoesText.GetComponent<Button>();
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	//Função para realizar a função da camera ir ate o mural
 	public void trazerCameraAteMural(){		
@@ -74,19 +64,14 @@ public class AnimacaoController : MonoBehaviour {
 		this.lepTop = false;
 		this.porta = false;
 	}		
-
-	//Clica em start 
-	public void iniciarJogo(){
-		jogoIniciado = true;
-        mainCameraAnimator.Play("muralToCama");
-    }
+		
 	//Quando o jogador clica no posit start
 	public void iniciar(){
 		if(!this.jogoIniciado){
 			this.jogoIniciado = true; //jogo iniciado
 			leptopTela.SetActive (true); //habilita a tela
 			leptopBrilho.SetActive (true); //habilita o brilho do lepTop
-
+			trazerCameraAteMuralToCama();
         }
 	}
 	//Quando o jogador clica na opção exit nas opções do leptop
