@@ -15,6 +15,8 @@ public class AnimacaoController : MonoBehaviour {
 	//as 2 variaveis são referentes ao leptop
 	public GameObject leptopBrilho;
 	public GameObject leptopTela;
+    //Creditos
+    public GameObject Creditos_Click;
 
 	void Start () {
 		mainCameraAnimator = Camera.main.gameObject.GetComponent<Animator> (); //Pegar animator da camera principal
@@ -78,4 +80,8 @@ public class AnimacaoController : MonoBehaviour {
 	public void sairProximaCena(){
 		SceneManager.LoadScene ("limbo",LoadSceneMode.Single);
 	}
+    public void creditos() {
+        Creditos_Click.SetActive(true);
+        
+    }
 }
