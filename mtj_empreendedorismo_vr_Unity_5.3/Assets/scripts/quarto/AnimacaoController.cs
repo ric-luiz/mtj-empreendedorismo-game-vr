@@ -80,8 +80,13 @@ public class AnimacaoController : MonoBehaviour {
 	public void sairProximaCena(){
 		SceneManager.LoadScene ("limbo",LoadSceneMode.Single);
 	}
+
+	//Troca de cena. Vai para a cena do banco
+	public void sairToBanco(){
+		SceneManager.LoadScene ("banco",LoadSceneMode.Single);
+	}
+
     public void creditos() {
-        Creditos_Click.SetActive(true);
-        
+		Creditos_Click.SetActive(!Creditos_Click.activeSelf);        
     }
 }
