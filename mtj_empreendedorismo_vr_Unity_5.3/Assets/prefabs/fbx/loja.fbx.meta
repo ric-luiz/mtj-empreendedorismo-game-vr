@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: c9f828e314944a74d84db654cf173f2f
+timeCreated: 1481419060
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: carroca
+    100002: //RootNode
+    100004: mesa
+    100006: parteGiratoria1
+    100008: parteGiratoria2
+    100010: ParteNaoMovel1
+    100012: ParteNaoMovel2
+    100014: placa
+    100016: placaPreco
+    100018: porta1
+    100020: porta2
+    100022: recheio
+    100024: roda1
+    100026: roda2
+    100028: roda3
+    100030: teto
+    100032: toldo
+    100034: wall1
+    100036: wall2
+    100038: wall3
+    100040: wall4
+    400000: carroca
+    400002: //RootNode
+    400004: mesa
+    400006: parteGiratoria1
+    400008: parteGiratoria2
+    400010: ParteNaoMovel1
+    400012: ParteNaoMovel2
+    400014: placa
+    400016: placaPreco
+    400018: porta1
+    400020: porta2
+    400022: recheio
+    400024: roda1
+    400026: roda2
+    400028: roda3
+    400030: teto
+    400032: toldo
+    400034: wall1
+    400036: wall2
+    400038: wall3
+    400040: wall4
+    2300000: carroca
+    2300002: //RootNode
+    2300004: mesa
+    2300006: parteGiratoria1
+    2300008: parteGiratoria2
+    2300010: ParteNaoMovel1
+    2300012: ParteNaoMovel2
+    2300014: placa
+    2300016: placaPreco
+    2300018: porta1
+    2300020: porta2
+    2300022: recheio
+    2300024: roda1
+    2300026: roda2
+    2300028: roda3
+    2300030: teto
+    2300032: toldo
+    2300034: wall1
+    2300036: wall2
+    2300038: wall3
+    2300040: wall4
+    3300000: carroca
+    3300002: //RootNode
+    3300004: mesa
+    3300006: parteGiratoria1
+    3300008: parteGiratoria2
+    3300010: ParteNaoMovel1
+    3300012: ParteNaoMovel2
+    3300014: placa
+    3300016: placaPreco
+    3300018: porta1
+    3300020: porta2
+    3300022: recheio
+    3300024: roda1
+    3300026: roda2
+    3300028: roda3
+    3300030: teto
+    3300032: toldo
+    3300034: wall1
+    3300036: wall2
+    3300038: wall3
+    3300040: wall4
+    4300000: floor
+    4300002: porta2
+    4300004: ParteNaoMovel2
+    4300006: parteGiratoria2
+    4300008: porta1
+    4300010: parteGiratoria1
+    4300012: ParteNaoMovel1
+    4300014: carroca
+    4300016: placaPreco
+    4300018: recheio
+    4300020: toldo
+    4300022: roda1
+    4300024: roda2
+    4300026: roda3
+    4300028: mesa
+    4300030: placa
+    4300032: teto
+    4300034: wall4
+    4300036: wall3
+    4300038: wall2
+    4300040: wall1
+    6400000: carroca
+    6400002: //RootNode
+    6400004: mesa
+    6400006: parteGiratoria1
+    6400008: parteGiratoria2
+    6400010: ParteNaoMovel1
+    6400012: ParteNaoMovel2
+    6400014: placa
+    6400016: placaPreco
+    6400018: porta1
+    6400020: porta2
+    6400022: recheio
+    6400024: roda1
+    6400026: roda2
+    6400028: roda3
+    6400030: teto
+    6400032: toldo
+    6400034: wall1
+    6400036: wall2
+    6400038: wall3
+    6400040: wall4
+    7400000: parteGiratoria2|parteGiratoria1Action
+    7400002: parteGiratoria2|parteGiratoria2Action
+    7400004: parteGiratoria1|parteGiratoria1Action
+    7400006: parteGiratoria1|parteGiratoria2Action
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: parteGiratoria2|parteGiratoria2Action
+      takeName: parteGiratoria2|parteGiratoria2Action
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: carroca
+        weight: 1
+      - path: carroca/placaPreco
+        weight: 1
+      - path: carroca/recheio
+        weight: 1
+      - path: carroca/roda1
+        weight: 1
+      - path: carroca/roda2
+        weight: 1
+      - path: carroca/roda3
+        weight: 1
+      - path: carroca/toldo
+        weight: 1
+      - path: mesa
+        weight: 1
+      - path: placa
+        weight: 1
+      - path: porta1
+        weight: 1
+      - path: porta1/parteGiratoria1
+        weight: 1
+      - path: porta1/ParteNaoMovel1
+        weight: 1
+      - path: porta2
+        weight: 1
+      - path: porta2/parteGiratoria2
+        weight: 1
+      - path: porta2/ParteNaoMovel2
+        weight: 1
+      - path: teto
+        weight: 1
+      - path: wall1
+        weight: 1
+      - path: wall2
+        weight: 1
+      - path: wall3
+        weight: 1
+      - path: wall4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: parteGiratoria1|parteGiratoria1Action
+      takeName: parteGiratoria1|parteGiratoria1Action
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: carroca
+        weight: 1
+      - path: carroca/placaPreco
+        weight: 1
+      - path: carroca/recheio
+        weight: 1
+      - path: carroca/roda1
+        weight: 1
+      - path: carroca/roda2
+        weight: 1
+      - path: carroca/roda3
+        weight: 1
+      - path: carroca/toldo
+        weight: 1
+      - path: mesa
+        weight: 1
+      - path: placa
+        weight: 1
+      - path: porta1
+        weight: 1
+      - path: porta1/parteGiratoria1
+        weight: 1
+      - path: porta1/ParteNaoMovel1
+        weight: 1
+      - path: porta2
+        weight: 1
+      - path: porta2/parteGiratoria2
+        weight: 1
+      - path: porta2/ParteNaoMovel2
+        weight: 1
+      - path: teto
+        weight: 1
+      - path: wall1
+        weight: 1
+      - path: wall2
+        weight: 1
+      - path: wall3
+        weight: 1
+      - path: wall4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
