@@ -88,6 +88,11 @@ public class AnimacaoController : MonoBehaviour {
 		SceneManager.LoadScene ("banco",LoadSceneMode.Single);
 	}
 
+	//Troca de cena. Vai para a cena da loja
+	public void sairToLoja(){
+		SceneManager.LoadScene ("loja",LoadSceneMode.Single);
+	}
+
     public void creditos() {
 		Creditos_Click.SetActive(!Creditos_Click.activeSelf);        
     }
