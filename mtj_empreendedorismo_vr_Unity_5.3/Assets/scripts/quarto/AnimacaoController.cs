@@ -17,8 +17,10 @@ public class AnimacaoController : MonoBehaviour {
 	public GameObject leptopTela;
     //Creditos
     public GameObject Creditos_Click;
+    //Opcoes
+    public GameObject Opcoes_Click;
 
-	void Start () {
+    void Start () {
 		mainCameraAnimator = Camera.main.gameObject.GetComponent<Animator> (); //Pegar animator da camera principal
     }
 
@@ -88,5 +90,9 @@ public class AnimacaoController : MonoBehaviour {
 
     public void creditos() {
 		Creditos_Click.SetActive(!Creditos_Click.activeSelf);        
+    }
+    public void opcoes()
+    {
+        Opcoes_Click.SetActive(!Opcoes_Click.activeSelf);
     }
 }
