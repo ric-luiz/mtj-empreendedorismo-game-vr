@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/banco.unity
+- path: Assets/quarto.unity
   isLoaded: 1
   isActive: 1
